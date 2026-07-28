@@ -15,7 +15,7 @@ def main():
         print("Invalid input. Please enter valid integers.")
         return
     if select_option == 0:
-        print("Exiting the calculator.")
+        exit()
         return    
     elif select_option in [5, 6]:
         try:
